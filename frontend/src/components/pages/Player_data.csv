@@ -1,0 +1,3 @@
+game_id,position,player_id,week,Incoming_Demand,Incoming_Shipment,Total_Inventory,cost
+SO9gC,Factory,1,11,19,28,13,26
+SO9gC,Factory,1,12,4,9,18,36

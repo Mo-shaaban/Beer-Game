@@ -1,0 +1,71 @@
+.front-page {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.61;
+  height: 100vh;
+  color: beige;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4a4a4a;
+  flex: 0.39;
+  background-color: #f6f7ff;
+}
+
+.tab-list {
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 6px 12px;
+  min-height: 25px;
+  text-align: center;
+  overflow: hidden;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tab-list-active {
+  border: solid lightseagreen;
+  border-width: 0px 0px 2px 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0x 8px 0px;
+  border: 0;
+}
+
+.form-field {
+  height: 5vh;
+  border: 0px 0px 1px 0px lightseagreen;
+  font-family: "Roboto", "sans-serif";
+}
+
+.btn {
+  height: 46px;
+  margin-top: 20x;
+  font-family: "Roboto", "sans-serif";
+  color: #4a4a4a;
+  background-color: lightseagreen;
+  border: 0;
+}
